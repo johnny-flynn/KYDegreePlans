@@ -1,0 +1,61 @@
+body { 
+    background-image: url("black-and-white-cup-hand-mug.6a9b9b2.jpg"); 
+    background-size: cover;
+  }
+
+.special-card {
+/* create a custom class so you 
+    do not run into specificity issues 
+    against bootstraps styles
+    which tends to work better than using !important 
+    (future you will thank you later)*/
+
+    background-color: transparent;
+    opacity: .5;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+img {
+    /*copacity: 0.8; */
+    width: 175px;
+    height: 175px;
+  }
+/* 
+img:hover {
+    opacity: 1.0;
+}
+*/
